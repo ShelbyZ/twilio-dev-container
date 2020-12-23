@@ -1,0 +1,19 @@
+{
+  "name": "Twilio Dev Container",
+  "dockerComposeFile": ["../docker-compose.yml","docker-compose.extend.yml"],
+  "service": "twilio-dev",
+  "workspaceFolder": "/usr/src/twilio",
+  "shutdownAction": "stopCompose",
+  "extensions": ["dbaeumer.vscode-eslint","visualstudioexptteam.vscodeintellicode","ms-python.python","ms-python.vscode-pylance"],
+  "settings": {
+    "eslint.format.enable": true,
+    "[javascript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "python.languageServer": "Pylance"
+  }
+}

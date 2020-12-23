@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Debug node",
+            "port": 5858,
+            "localRoot": "${workspaceFolder}/js",
+            "remoteRoot": "/usr/src/twilio",
+        },
+        {
+            "type": "python",
+            "request": "attach",
+            "name": "Debug python",
+            "port": 5678
+        }
+    ]
+}

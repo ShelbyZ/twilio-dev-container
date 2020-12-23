@@ -1,0 +1,7 @@
+.env
+scratch
+node_modules
+bin
+lib
+pyvenv.cfg
+**/twilio/python/sample/.gitignore

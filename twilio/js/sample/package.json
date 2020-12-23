@@ -1,0 +1,16 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-container.js",
+  "dependencies": {
+    "twilio": "^3.54.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node hello-container.js",
+    "debug": "node --inspect-brk=0.0.0.0:5858 hello-container.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
